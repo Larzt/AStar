@@ -1,0 +1,56 @@
+# Archivos de Visual Studio Code
+.vscode/
+
+# Archivos de compilación
+build/
+cmake-build-*/           # Carpeta de compilación CMake (si la usas)
+CMakeFiles/
+Makefile
+CMakeCache.txt
+compile_commands.json
+Testing/
+CTestTestfile.cmake
+
+# Archivos binarios y de objeto
+*.exe
+*.out
+*.app
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Archivos de depuración
+*.gch
+*.pch
+*.log
+*.tmp
+*.stackdump
+
+# Archivos generados por IDEs o compiladores
+*.swp
+*.swo
+*.idb
+*.pdb
+*.ipch
+*.tlog
+*.obj
+*.lastbuildstate
+
+# Archivos de respaldo
+*.bak
+*.old
+*.orig
+
+# Archivos de paquete
+*.tar
+*.gz
+*.zip
+*.7z
+
+# Directorios temporales
+tmp/
+temp/
