@@ -22,10 +22,10 @@ Vector2 Dimensions(const std::string &input_file) {
   int counter = 0;
   while (getline(file, line)) {
     if (counter == 0) {
-      dimensions.x = line[0] - '0';
+      dimensions.x = std::stoi(line);
       ++counter;
     } else {
-      dimensions.y = line[0] - '0';
+      dimensions.y = std::stoi(line);
       break;
     }
   }
